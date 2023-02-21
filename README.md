@@ -53,4 +53,4 @@ Commit Test
  
  •	If the user is already a member of the group, a notification email is sent to the user using variables from the form.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/Add%20to%20group.gif)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/Add%20to%20group%20.gif)
