@@ -15,9 +15,7 @@ Commit Test
  
  •	In the form id drop down, select the form created/named by the user.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/Resources/Create new flow.gif
-![image](https://user-images.githubusercontent.com/125902819/220426852-a3b7b7ba-8709-4d7d-a9be-3ec0e2b86983.png)
-)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/Resources/Create new flow.gif)
  
  •	Choose new step and search, then select get response details from the drop down menu.
  
