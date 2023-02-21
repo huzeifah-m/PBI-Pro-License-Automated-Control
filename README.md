@@ -1,5 +1,6 @@
 # PBI Pro License Automated Control
- When a user is assigned an Office 365 E5 subscription, a Power BI pro licence is also included within the package. This may become an issue for organisations with E5 licences assigned to many users, as a PBI Pro licence allows for...   
+ When a user is assigned an Office 365 E5 subscription, a Power BI pro licence (being part of the E5 package) is automatically assigned aswell. This may become an issue for organisations with many E5 licences distributed across their users, as a PBI Pro licence allows for a free-for-all in terms of content creation (unless otherwise restricted). In order to better control the initial assignment of a PBI Pro license, users can be added to security groups with the pro license enabled/disabled. Any user added to the group will inherit the license assignment of the security group. For example, if the security group has PBI Pro disabled, any user added to this group will inherit this restriction and will also have PBI Pro disabled.       
+ 
  A method to automate assigning PBI pro licences to a security group upon requesting access via a form.
 
  •	Build a basic form that captures all information to be entered and requested, customise it to meet needs, and set it up so that only members of your organisation can view it
