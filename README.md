@@ -10,6 +10,8 @@ Commit Test
  
  • Select the triggered by a designated event tab under the start from scratch section.
  
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/Navigating%20to%20website.gif)
+ 
  •	In the pop-up window, type and click When a new response is submitted and the option to create is selected
  
  •	In the form id drop down, select the form created/named by the user.
