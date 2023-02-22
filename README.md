@@ -15,29 +15,23 @@ In order to better control the initial assignment of a PBI Pro license and impro
 We can take advantage of Power Automate to automate the entire process from when the user submits a request.
 
 ### Pre-requisites
-•	Power Automate licence
+•	**Power Automate licence**
 
-•	Admin of an AAD
+•	**Admin of an AAD**
 
-•	E5 licences
+•	**E5 licences**
 
-•	MSForm for user to fill in, which is set so only members of your organisation can respond. Here organisations can customise the form to meet their needs such as including terms of use, rules to follow etc..:
+•	**MSForm for user to fill in**, which is set so only members of your organisation can respond. Here organisations can customise the form to meet their needs such as including terms of use, rules to follow etc..:
 
 <img width="1189" alt="MicrosoftTeams-image" src="https://user-images.githubusercontent.com/99490720/220603003-6d22c454-9882-4a0e-be9d-95c6ed889233.png">
 
-• Create a Security group with E5 assigned (and PBI Pro enabled):
+• **Create a Security group with E5 assigned (and PBI Pro enabled):**
 
 From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description. Then assign E5 licences to the security group:
 ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/creating%20SG.gif) 
 
 
 ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/assign%20licence%20to%20SG.gif)
-
-
- 
- A method to automate assigning PBI pro licences to a security group upon requesting access via a form.
-
- •	Build a basic form that captures all information to be entered and requested, customise it to meet needs, and set it up so that only members of your organisation can view it
 
 
 ### Building Flow Architecture
