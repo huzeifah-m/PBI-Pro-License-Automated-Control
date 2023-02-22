@@ -21,8 +21,9 @@ We can take advantage of Power Automate to automate the entire process from when
 
 •	E5 licences
 
-•	MSForm for user to fill in:
+•	MSForm for user to fill in, which is set so only members of your organisation can respond. Here organisations can customise the form to meet their needs such as including terms of use, rules to follow etc..:
 
+<img width="1189" alt="MicrosoftTeams-image" src="https://user-images.githubusercontent.com/99490720/220603003-6d22c454-9882-4a0e-be9d-95c6ed889233.png">
 
 • Create a Security group with E5 assigned (and PBI Pro enabled):
 
