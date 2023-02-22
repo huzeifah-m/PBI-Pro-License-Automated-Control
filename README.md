@@ -39,13 +39,11 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  • Select the 'Create' tab and create a new flow by selecting 'Automated cloud flow'. Then select the MSForms trigger 'When a new response is submitted'.
  
-  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Create%20new%20flow.gif)
+  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Create%20new%20flow.gif) ***Please redo this gif without pausing/making spelling mistake when typing***
  
- •	In the form id drop down, select the form created/named by the user.
+ •	For the Form ID drop down, select the pre-created form. In the example below the MSForm is titled "Power BI Pro".
  
- •	Choose new step and search, then select get response details from the drop down menu.
- 
- •	Select the specified form Id and the response Id from the dynamic pop up box in the box for response Id.
+ •	Click 'New step' and select the MSForms 'Get repsonse details' action. Again select the required form for Form ID. For the response ID, in the pop-up box, select the dynamic MSForm content 'Response ID'.
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20response%20ID.gif)
  
