@@ -5,6 +5,12 @@
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/Demo%20user%20in%20no%20pro%20group.gif)
  
+ To better govern PBI Pro Licence assignment, consider the following method:
+ 1. Create two security groups, one with PBI Pro enabled and the other with PBI Pro disabled.
+ 2. Users by default are added to the group with PBI pro disabled.
+ 3. Should a user need a Pro licence, they submit a request.
+ 4. If the request is approved, they are transferred to the security group with the Pro Licence enabled.
+ 
  A method to automate assigning PBI pro licences to a security group upon requesting access via a form.
 
  •	Build a basic form that captures all information to be entered and requested, customise it to meet needs, and set it up so that only members of your organisation can view it
