@@ -21,15 +21,18 @@ We can take advantage of Power Automate to automate the entire process from when
 
 •	E5 licences
 
+•	MSForm for user to fill in:
+
+
 • Create a Security group with E5 assigned (and PBI Pro enabled):
 
-From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description:
-![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/creating%20SG.gif)
+From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description. Then assign E5 licences to the security group:
+![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/creating%20SG.gif) 
 
-Assign E5 licences to the security group:
-![] 
 
-•	MSForm for user to fill in
+![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/assign%20licence%20to%20SG.gif)
+
+
  
  A method to automate assigning PBI pro licences to a security group upon requesting access via a form.
 
