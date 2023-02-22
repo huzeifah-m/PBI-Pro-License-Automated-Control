@@ -47,7 +47,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20response%20ID.gif)
  
- •	Add a new step called 'Get User Profile,' and in the user fill in a dynamic response for the responder's email.
+ •	Add a new step by selecting the Office 365 action 'Get User Profile', which returns the user's details. For the 'User' input, select the MSForms action 'Responder's email' to dynamically return the email address of the form responder.
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20user%20profile.gif)
  
