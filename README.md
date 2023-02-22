@@ -1,7 +1,8 @@
 # PBI Pro License Automated Control
- When a user is assigned an Office 365 E5 subscription, a Power BI pro licence (being part of the E5 package) is automatically assigned aswell. This may become an issue for organisations with many E5 licences distributed across their users, as a PBI Pro licence allows for a free-for-all in terms of content creation (unless otherwise restricted). 
+### Introduction
+When a user is assigned an Office 365 E5 subscription, a Power BI pro licence (being part of the E5 package) is automatically assigned aswell. This may become an issue for organisations with many E5 licences distributed across their users, as a PBI Pro licence allows for a free-for-all in terms of content creation (unless otherwise restricted). 
  
- In order to better control the initial assignment of a PBI Pro license, users can be added to security groups with the pro license enabled/disabled. Any user added to the group will inherit the license assignment of the security group. For example, if the security group has PBI Pro disabled, any user added to this group will inherit this restriction and will also have PBI Pro disabled. See the GIF below which illustrates this:       
+In order to better control the initial assignment of a PBI Pro license and improve PBI governance, users can be added to security groups with the pro license enabled/disabled. Any user added to the group will inherit the license assignment of the security group. For example, if the security group has PBI Pro disabled, any user added to this group will inherit this restriction and will also have PBI Pro disabled. See the GIF below which illustrates this:       
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/Demo%20user%20in%20no%20pro%20group.gif)
  
@@ -10,11 +11,24 @@
  2. Users by default are added to the group with PBI pro disabled.
  3. Should a user need a Pro licence, they submit a request.
  4. If the request is approved, they are transferred to the security group with the Pro Licence enabled.
+
+We can take advantage of Power Automate to automate the entire process from when the user submits a request.
+
+### Pre-requisites
+•	Power Automate licence
+
+•	Admin of an AAD
+
+• Create a Security group with E5 assigned (and PBI Pro enabled):
+
+From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description:
+![]Insert SG gif
+
+•	MSForm for user to fill in
  
  A method to automate assigning PBI pro licences to a security group upon requesting access via a form.
 
  •	Build a basic form that captures all information to be entered and requested, customise it to meet needs, and set it up so that only members of your organisation can view it
-Commit Test
 
 
 ### Building Flow Architecture
