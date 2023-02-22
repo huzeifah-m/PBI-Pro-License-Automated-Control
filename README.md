@@ -19,10 +19,15 @@ We can take advantage of Power Automate to automate the entire process from when
 
 •	Admin of an AAD
 
+•	E5 licences
+
 • Create a Security group with E5 assigned (and PBI Pro enabled):
 
 From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description:
-![]Insert SG gif
+![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Resources/creating%20SG.gif)
+
+Assign E5 licences to the security group:
+![] 
 
 •	MSForm for user to fill in
  
