@@ -51,9 +51,9 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20user%20profile.gif)
  
- •	Next, choose a new Post adaptive card step and wait for a response.
+ •	Add a new step using the Teams action 'Post adaptive card and wait for a response'. This can be customised according to your needs, in this example a teams message is sent to the admin requesting for their approval/rejection. ***Uche please clarify instructions for the body of the card***
  
-  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif)
+  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif) ***please can this gif be redone without pauses when searching for the trigger***
  
  •	In response to the approval, we then use a condition. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId']
  
