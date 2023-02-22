@@ -67,13 +67,11 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  ![groupid](https://user-images.githubusercontent.com/99490720/220701695-dc29d19f-45bc-4926-9ebe-5d1bde5f7def.png)
 
- •	Add condition to Check the ID to see if the user is already a member. Use the "does not contain" option in this case.
- 
- •	Check the ID to see if the user belongs to the group.
+ •	Add a 'Condition', we input the 'value' from the previous step and check whether the desired group ID is contained in the result.
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition%202.gif) ***A lot of time is wasted scrolling and searching for the triggers, but then Azure AD is selected so there was no need to scroll. Please redo reducing time wasted***
  
- •	Add the user to the group if they are not already a member by providing their user ID and the same group ID.
+ •	In the 'Yes' case where the user is not part of the group, we can dynamically add them to the group using the Azure AD 'Add user to group' action. We use the specified group ID and the dynamic User ID connector as inputs for this action.
  
  •	Using some form variables, send the user a confirmation email confirming their application has been approved and a licence has been issued.
  
