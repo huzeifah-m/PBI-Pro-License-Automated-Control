@@ -55,13 +55,13 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif) ***please can this gif be redone without pauses when searching for the trigger***
  
- •	In response to the approval, we then use a condition. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId']
+ •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId'] ***Please can this last sentence be written as it is unclear what needs to be done***
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Condition%201.gif)
  
- •	When a request is denied, the user is notified via email. The flow resumes once the request is approved. To include the approver's message in the email, use an expression that contains the clarification field from the adaptive card. body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification']
+ •	When a request is denied, the responder can be notified via email. Add a 'Send an email' action as illustrated below to automatically send an email to the responder. To include the approver's message in the email, use an expression that contains the clarification field from the adaptive card. body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification'] ***Again please clarify this last sentence***
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejected%20Email.gif)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejected%20Email.gif) ***Please redo this gif without wasting time when searching for the 'send an email' action***
  
  •	When the request is approved the user is crosschecked if the user is already a member of the license group. The group ID can be found in the properties page of the license group in Azure AD.
  
