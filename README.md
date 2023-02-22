@@ -69,7 +69,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	Check the ID to see if the user belongs to the group.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition%202.gif)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition%202.gif) ***A lot of time is wasted scrolling and searching for the triggers, but then Azure AD is selected so there was no need to scroll. Please redo reducing time wasted***
  
  •	Add the user to the group if they are not already a member by providing their user ID and the same group ID.
  
@@ -77,4 +77,4 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	If the user is already a member of the group, a notification email is sent to the user using variables from the form.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif) ***This also needs to be re-done as lots of time is wasted just searching for the triggers***
