@@ -64,10 +64,10 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejected%20Email.gif) ***Please redo this gif without wasting time when searching for the 'send an email' action***
  
  •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which returns the given id if the user is a member of the group. Else the result will be empty. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal:
- 
- ![groupid](https://user-images.githubusercontent.com/99490720/220701695-dc29d19f-45bc-4926-9ebe-5d1bde5f7def.png)
 
  •	Add a 'Condition', we input the 'value' from the previous step and check whether the desired group ID is contained in the result.
+ 
+ ![groupid](https://user-images.githubusercontent.com/99490720/220701695-dc29d19f-45bc-4926-9ebe-5d1bde5f7def.png)
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition%202.gif) ***A lot of time is wasted scrolling and searching for the triggers, but then Azure AD is selected so there was no need to scroll. Please redo reducing time wasted***
  
