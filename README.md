@@ -90,4 +90,12 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  <img width="505" alt="MicrosoftTeams-image (1)" src="https://user-images.githubusercontent.com/99490720/220887277-b32ff004-9934-40fa-b233-b75a9c179f53.png">
  
- I recommend building this flow from scratch to get a better understanding of the experience. However we have also attached the template here.
+ I recommend building this flow from scratch to get a better understanding of the entire process. However you can download the template here [https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip]()
+ 
+Here are some additional links which may help:
+
+What is group-based licensing in Azure Active Directory? - [https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal]()
+
+Licensing the Power BI service for users in your organization - [https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-licensing-organization]()
+
+Enable or disable self-service sign-up and purchasing - [https://learn.microsoft.com/en-us/power-bi/enterprise/service-admin-disable-self-service]()
