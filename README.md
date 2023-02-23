@@ -79,7 +79,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  ![groupid](https://user-images.githubusercontent.com/99490720/220701695-dc29d19f-45bc-4926-9ebe-5d1bde5f7def.png)
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition%202.gif) 
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%20and%20condition.gif) 
  
  •	In the 'Yes' case where the user is not part of the group, we can dynamically add them to the group using the Azure AD 'Add user to group' action. We use the specified group ID and the dynamic User ID connector as inputs for this action.
  
