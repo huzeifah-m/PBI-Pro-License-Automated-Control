@@ -75,6 +75,6 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	Using some form variables, send the user a confirmation email confirming their application has been approved and a licence has been issued.
  
- •	If the user is already a member of the group, a notification email is sent to the user using variables from the form.
+ •	In the 'No' case where the user is already a member of the group, a notification email is sent to the user using variables from the form.
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif) ***This also needs to be re-done as lots of time is wasted just searching for the triggers***
