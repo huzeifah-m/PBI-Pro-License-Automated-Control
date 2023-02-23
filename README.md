@@ -92,7 +92,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  I recommend building this flow from scratch to get a better understanding of the entire process. However you can download the template here [https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip]()
  
-Here are some additional links which may help:
+**Here are some additional links which may help:**
 
 What is group-based licensing in Azure Active Directory? - [https://learn.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal]()
 
