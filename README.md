@@ -45,7 +45,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  • Select the 'Create' tab and start a new flow by selecting 'Automated cloud flow'. Then select the MSForms trigger 'When a new response is submitted'.
  
-  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Create%20new%20flow.gif) ***Please redo this gif without pausing/making spelling mistake when typing***
+  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Create%20flow.gif) 
  
  •	For the Form ID drop down, select the pre-created form. In the example below the MSForm is titled "Power BI Pro".
  
@@ -55,17 +55,17 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	Add a new step by selecting the Office 365 action 'Get User Profile', which returns the user's details. For the 'User' input, select the MSForms action 'Responder's email' to dynamically return the email address of the form responder.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20user%20profile.gif)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20profile.gif)
  
- •	Add a new step using the Teams action 'Post adaptive card and wait for a response'. This can be customised according to your needs, in this example a teams message is sent to the admin requesting for their approval/rejection. ***Uche please clarify instructions for the body of the card***
+ •	Add a new step using the Teams action 'Post adaptive card and wait for a response'. This can be customised according to your needs, in this example a teams message is sent to the admin as a flow bot in a chat on teams requesting for their approval/rejection. A json code is generated for the design of the adaptive card. This code can be found in uploaded documents 
  
-  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif) ***please can this gif be redone without pauses when searching for the trigger***
+  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Teams%20Adaptive%20Card.gif)
  
  Here is an example of the Teams message the admin will receive:
  
  <img width="304" alt="MicrosoftTeams-image (2)" src="https://user-images.githubusercontent.com/99490720/220887559-64d809e3-a67f-4322-9263-2afebf445c49.png">
  
- •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId'] ***Please can this last sentence be written as it is unclear what needs to be done***
+ •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data  expression which is - body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId']. This expression is entered and depending on the output(approve or reject) the flow continues
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Condition%201.gif)
  
