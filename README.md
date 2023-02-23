@@ -87,7 +87,9 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	In the 'No' case where the user is already a member of the group, a notification email is sent to the user using variables from the form.
  
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif) ***This also needs to be re-done as lots of time is wasted just searching for the triggers***
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%201.gif) 
+ 
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Check%20group%20membership%202.gif) 
  
  # Wrapping up
  This is what the complete automate flow looks like: 
