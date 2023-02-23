@@ -17,11 +17,11 @@ We can take advantage of Power Automate to automate the entire process from when
 ### Pre-requisites
 •	**Power Automate licence**
 
-•	**Admin of an AAD**
+•	**Permissions to create/use an [Azure Active Directory Security Group](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)**
 
-•	**E5 licences**
+•	**Procured E5 licences available to assign**
 
-•	**MSForm for user to fill in**, which is set so only members of your organisation can respond. Here organisations can customise the form to meet their needs such as including terms of use, rules to follow etc..:
+•	**MSForm for end user to fill in**, which is set so only members of your organisation can respond. Here organisations can customise the form to meet their needs such as including terms of use, rules to follow etc..:
 
 <img width="1189" alt="MicrosoftTeams-image" src="https://user-images.githubusercontent.com/99490720/220603003-6d22c454-9882-4a0e-be9d-95c6ed889233.png">
 
@@ -34,7 +34,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
 ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/assign%20licence%20to%20SG.gif)
 
 
-### Building Flow Architecture
+# Building Flow Architecture
  •	Navigate to [make.powerautomate.com]() and sign in.
  
  • Select the 'Create' tab and start a new flow by selecting 'Automated cloud flow'. Then select the MSForms trigger 'When a new response is submitted'.
