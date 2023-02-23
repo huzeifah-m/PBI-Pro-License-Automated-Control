@@ -85,8 +85,9 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif) ***This also needs to be re-done as lots of time is wasted just searching for the triggers***
  
- # Conclusion
+ # Wrapping up
  This is what the complete automate flow looks like: 
  
  <img width="505" alt="MicrosoftTeams-image (1)" src="https://user-images.githubusercontent.com/99490720/220887277-b32ff004-9934-40fa-b233-b75a9c179f53.png">
-
+ 
+ I recommend building this flow from scratch to get a better understanding of the experience. However we have also attached the template here.
