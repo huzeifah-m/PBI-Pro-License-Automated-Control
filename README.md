@@ -37,7 +37,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
 ### Building Flow Architecture
  •	Navigate to [make.powerautomate.com]() and sign in.
  
- • Select the 'Create' tab and create a new flow by selecting 'Automated cloud flow'. Then select the MSForms trigger 'When a new response is submitted'.
+ • Select the 'Create' tab and start a new flow by selecting 'Automated cloud flow'. Then select the MSForms trigger 'When a new response is submitted'.
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Create%20new%20flow.gif) ***Please redo this gif without pausing/making spelling mistake when typing***
  
