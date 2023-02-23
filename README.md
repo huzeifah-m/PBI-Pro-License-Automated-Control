@@ -57,6 +57,9 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif) ***please can this gif be redone without pauses when searching for the trigger***
  
+ Here is an example of the Teams massage the admin will receive:
+ <img width="304" alt="MicrosoftTeams-image (2)" src="https://user-images.githubusercontent.com/99490720/220887559-64d809e3-a67f-4322-9263-2afebf445c49.png">
+ 
  •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId'] ***Please can this last sentence be written as it is unclear what needs to be done***
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Condition%201.gif)
@@ -80,3 +83,9 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  •	In the 'No' case where the user is already a member of the group, a notification email is sent to the user using variables from the form.
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Add%20to%20group%20.gif) ***This also needs to be re-done as lots of time is wasted just searching for the triggers***
+ 
+ # Conclusion
+ This is what the complete automate flow looks like: 
+ 
+ <img width="505" alt="MicrosoftTeams-image (1)" src="https://user-images.githubusercontent.com/99490720/220887277-b32ff004-9934-40fa-b233-b75a9c179f53.png">
+
