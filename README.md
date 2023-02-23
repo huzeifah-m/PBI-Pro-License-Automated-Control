@@ -57,7 +57,8 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Adaptive%20Card.gif) ***please can this gif be redone without pauses when searching for the trigger***
  
- Here is an example of the Teams massage the admin will receive:
+ Here is an example of the Teams message the admin will receive:
+ 
  <img width="304" alt="MicrosoftTeams-image (2)" src="https://user-images.githubusercontent.com/99490720/220887559-64d809e3-a67f-4322-9263-2afebf445c49.png">
  
  •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data and the expression is: body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId'] ***Please can this last sentence be written as it is unclear what needs to be done***
