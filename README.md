@@ -12,7 +12,9 @@ In order to better control the initial assignment of a PBI Pro license and impro
  3. Should a user need a Pro licence, they submit a request.
  4. If the request is approved, they are transferred to the security group with the Pro Licence enabled.
 
-We can take advantage of Power Automate to automate the entire process from when the user submits a request.
+We can take advantage of Power Automate to automate the entire process from when the user submits a request. See the diagram below which illustrates the architecture:
+
+![architect diagram](https://user-images.githubusercontent.com/99490720/220882867-a1a123ce-4332-4677-b0a7-04be7e991445.png)
 
 ### Pre-requisites
 •	**Power Automate licence**
