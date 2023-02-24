@@ -100,7 +100,7 @@ body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification']
  
  To check whether a Pro licence has been assigned to you navigate to [https://app.powerbi.com/](). Click on your profile image and the licence type will be displayed. If the flow was unsuccessful the licence type will remain as 'Free', if the flow ran successfully the licence type should change to 'Pro':
 
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/propic.png) ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/freepbipic.png)
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/freepbipic.png) ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/propic.png) 
  
  # Wrapping up
  This is what the complete automate flow looks like: 
