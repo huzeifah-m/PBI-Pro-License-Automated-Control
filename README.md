@@ -59,7 +59,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20profile.gif)
  
- •	Add a new step using the Teams action 'Post adaptive card and wait for a response'. This can be customised according to your needs, in this example a teams message is sent to the admin as a flow bot in a chat on teams requesting for their approval/rejection. A json code is generated for the design of the adaptive card. This code can be found in uploaded documents 
+ •	Add a new step using the Teams action 'Post adaptive card and wait for a response'. This can be customised according to your needs, in this example a teams message is sent to the admin as a flow bot in a chat on teams requesting for their approval/rejection. A json code is generated for the design of the adaptive card which can be found [here](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Teams%20Adaptive%20Card%20json.txt)
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Teams%20Adaptive%20Card.gif)
  
