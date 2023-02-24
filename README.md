@@ -65,12 +65,19 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  <img width="304" alt="MicrosoftTeams-image (2)" src="https://user-images.githubusercontent.com/99490720/220887559-64d809e3-a67f-4322-9263-2afebf445c49.png">
  
- •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. The condition is created by using the adaptive card's approval data  expression which is - body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId']. This expression is entered and depending on the output(approve or reject) the flow continues
+ •	We need to cover either case of approval or rejection, to do this we can add a 'Condition' action. Enter the below expression as the input for the condition:
+ 
+ ```
+ body('Post_Adaptive_Card_and_wait_for_a_response')?['submitActionId']
+ ```
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Condition%201.gif)
  
- •	When a request is denied, the responder can be notified via email. Add a 'Send an email' action as illustrated below to automatically send an email to the responder. To include the approver's message in the email, an expression that contains the clarification(reason for rejection) field from the adaptive card is used as a variable in th email. The expression is -  body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification'] 
- 
+ •	When a request is denied, the responder can be notified via email. Add a 'Send an email' action as illustrated below to automatically send an email to the responder. To include the approver's message in the email, an expression that contains the clarification (reason for rejection) field from the adaptive card is used as a variable in the email:
+```
+body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification'] 
+```
+
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejection%20Email.gif) 
  
  •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which returns the given id if the user is a member of the group. Else the result will be empty. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal:
