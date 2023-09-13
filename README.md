@@ -13,7 +13,7 @@ In order to better control the initial assignment of a PBI Pro license and impro
  
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Demo%20user%20in%20no%20pro%20group.gif)
  
-We can take advantage of Power Automate to automate this entire process! See the diagram below which illustrates the architecture, (link to the whitepaper can be found at the bottom):
+We can take advantage of Power Automate to automate this entire process! Using a workflow-based licencing method is quite simple to deploy and is highly effective. See the diagram below which illustrates the architecture, (link to the whitepaper can be found at the bottom):
 
 ![architect diagram](https://user-images.githubusercontent.com/99490720/220882867-a1a123ce-4332-4677-b0a7-04be7e991445.png)
 
