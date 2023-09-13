@@ -19,7 +19,7 @@ We can take advantage of Power Automate to automate this entire process! Using a
 
 <sub> *1. Power BI pro licences can be procured using different methods, such as via an E5 licence.</sub>
 
-I would highly recommend building this flow from scratch to get a better understanding of the entire process. However the template can be downloaded here [https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip]()
+The steps to create a gated-control to assign licences has been detailed below. I would highly recommend building this flow from scratch to get a better understanding of the entire process, however the template can be downloaded here [https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/AutomatedLicenseFlow_20230223104740.zip]()
 
 **Note -** The permissions/connectors will need to be reassigned to yourself if using the template. 
 
