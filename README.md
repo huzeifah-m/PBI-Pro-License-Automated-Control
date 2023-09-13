@@ -1,4 +1,4 @@
-# PBI Pro License Automated Control
+# Automated Power BI Pro Licence Control
 ### Introduction
 In organisations with Office 365 E5 subscriptions, Power BI pro licences (being part of the E5 package) are automatically assigned to all E5 holders. This may become an issue for organisations with many E5 licences distributed across their users, as a PBI Pro licence allows for a free-for-all in terms of content creation (unless otherwise restricted). Controlling access to a Pro licence allows:
 * More control of who can author, publish and share content.
