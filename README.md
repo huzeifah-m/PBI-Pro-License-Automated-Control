@@ -5,17 +5,15 @@ In organisations with Office 365 E5 subscriptions, Power BI pro licences (being 
 * Ability to remove bad actors.
 * Premium content can be safely distributed via Enterprise wide apps.
  
-In order to better control the initial assignment of a PBI Pro license and improve PBI governance, users can be added to security groups with the pro license enabled/disabled. Any user added to the group will inherit the license assignment of the security group. For example, if the security group has PBI Pro disabled, any user added to this group will inherit this restriction and will also have PBI Pro disabled. See the GIF below which illustrates this:       
- 
- ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Demo%20user%20in%20no%20pro%20group.gif)
- 
- To better govern PBI Pro Licence assignment, consider the following method:
+In order to better control the initial assignment of a PBI Pro license and improve PBI governance, consider the following method (illustrated by the gif below):
  1. Create two security groups, one with PBI Pro enabled and the other with PBI Pro disabled.
  2. Users by default are added to the group with PBI pro disabled.
  3. Should a user need a Pro licence, they submit a request.
  4. If the request is approved, they are transferred to the security group with the Pro Licence enabled.
-
-We can take advantage of Power Automate to automate the entire process from when the user submits a request. See the diagram below which illustrates the architecture, (link to the whitepaper can be found at the bottom):
+ 
+ ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Demo%20user%20in%20no%20pro%20group.gif)
+ 
+We can take advantage of Power Automate to automate this entire process! See the diagram below which illustrates the architecture, (link to the whitepaper can be found at the bottom):
 
 ![architect diagram](https://user-images.githubusercontent.com/99490720/220882867-a1a123ce-4332-4677-b0a7-04be7e991445.png)
 
