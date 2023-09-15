@@ -34,7 +34,7 @@ The steps to create a gated-control to assign licences has been detailed below. 
 
 <img width="1189" alt="MicrosoftTeams-image" src="https://user-images.githubusercontent.com/99490720/220603003-6d22c454-9882-4a0e-be9d-95c6ed889233.png">
 
-• **Create a Security group with E5 assigned (and PBI Pro enabled):**
+• ** a Security group with E5 assigned (and PBI Pro enabled):**
 
 From the Azure Active Directory page within the Azure portal, create a new security group, add a suitable name, description. Then assign E5 licences to the security group:
 ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/creating%20SG.gif) 
@@ -52,7 +52,7 @@ From the Azure Active Directory page within the Azure portal, create a new secur
  
  •	For the Form ID drop down, select the pre-created form. In the example below the MSForm is titled "Power BI Pro".
  
- •	Click 'New step' and select the MSForms 'Get repsonse details' action. Again select the required form for Form ID. For the response ID, in the pop-up box, select the dynamic MSForm content 'Response ID'.
+ •	Click 'New step' and select the MSForms 'Get response details' action. Again select the required form for Form ID. For the response ID, in the pop-up box, select the dynamic MSForm content 'Response ID'.
  
   ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Get%20response%20ID.gif)
  
@@ -83,7 +83,7 @@ body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification']
 
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejection%20Email.gif) 
  
- •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which returns the given id if the user is a member of the group. Else the result will be empty. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal:
+ •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which either returns the given id if the user is a member of the group, or the result will be empty if they are not a member. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal:
 
  •	Add a 'Condition', we input the 'value' from the previous step and check whether the desired group ID is contained in the result.
  
