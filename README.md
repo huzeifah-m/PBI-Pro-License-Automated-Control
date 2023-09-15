@@ -83,7 +83,7 @@ body('Post_Adaptive_Card_and_wait_for_a_response')?['data']?['clarification']
 
  ![](https://github.com/huzeifah-m/PBI-Pro-License-Automated-Control/blob/main/Images/Rejection%20Email.gif) 
  
- •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which either returns the given id if the user is a member of the group, or the result will be empty if they are not a member. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal:
+ •	For the 'Yes' case (request has been approved) we need to check whether the user is already a member of the desired security group. Add a Azure AD 'Check group membership' action, which either returns the given id if the user is a member of the group, or the result will be empty if they are not a member. Select a dynamic ID input for 'User' and input the desired group ID for 'Group ID'. The group ID can be found in the overview page of the group in the Azure portal.
 
  •	Add a 'Condition', we input the 'value' from the previous step and check whether the desired group ID is contained in the result.
  
